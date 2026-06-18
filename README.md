@@ -1,8 +1,8 @@
-# Task 1: Data Cleaning and Preprocessing - Netflix Dataset
+# Task 1: Data Cleaning and Preprocessing – Netflix Dataset
 
 ## 📌 Project Overview
 
-This project focuses on cleaning and preprocessing the Netflix Titles dataset using Microsoft Excel. The objective was to improve data quality by handling missing values, removing duplicates, standardizing formats, and preparing the dataset for further analysis.
+This project was completed as part of the **DataX Labs Data Analytics Internship**. The objective was to clean and preprocess the Netflix dataset to improve data quality and prepare it for further analysis and visualization.
 
 ---
 
@@ -22,7 +22,7 @@ The goal of this task was to:
 
 ## 📊 Dataset Information
 
-**Dataset Name:** Netflix Titles Dataset
+**Dataset:** Netflix Titles Dataset
 
 The dataset contains information about Netflix Movies and TV Shows, including:
 
@@ -36,7 +36,7 @@ The dataset contains information about Netflix Movies and TV Shows, including:
 * Release Year
 * Rating
 * Duration
-* Genre (Listed In)
+* Listed In (Genre)
 * Description
 
 ---
@@ -58,7 +58,7 @@ The dataset contains information about Netflix Movies and TV Shows, including:
 
 ### 3. Date Format Standardization
 
-* Converted and verified the `date_added` column in a consistent format:
+* Standardized the `date_added` column into a consistent format:
 
   * `dd-mm-yyyy`
 
@@ -85,6 +85,18 @@ Verified that column headers already followed a clean naming convention:
 
 ---
 
+## 📝 Short Summary of Changes
+
+* Identified and handled missing values by replacing blank entries with appropriate values such as "N/A" and "Not Available".
+* Removed duplicate records from the dataset.
+* Standardized the `date_added` column into a consistent date format (`dd-mm-yyyy`).
+* Verified and corrected data types where necessary.
+* Verified that column names followed a consistent naming convention.
+* Removed unnecessary empty columns from the dataset.
+* Created a cleaned and analysis-ready version of the Netflix dataset.
+
+---
+
 ## 🧰 Tools Used
 
 * Microsoft Excel
@@ -93,22 +105,11 @@ Verified that column headers already followed a clean naming convention:
 
 ## 📂 Files Included
 
-### Dataset
-
-* `netflix_titles.csv`
-
-### Cleaned Dataset
-
-* `Task-1-Data-Cleaning-Netflix.xlsx`
-
-### Screenshots
-
-* `raw_data.png`
-* `cleaned_data.png`
-
-### Documentation
-
-* `README.md`
+* `netflix_titles.csv` – Original Dataset
+* `Task-1-Data-Cleaning-Netflix.xlsx` – Cleaned Dataset
+* `raw_data.png` – Original Dataset Screenshot
+* `cleaned_data.png` – Cleaned Dataset Screenshot
+* `README.md` – Project Documentation
 
 ---
 
@@ -126,11 +127,11 @@ Verified that column headers already followed a clean naming convention:
 
 ## ✅ Outcome
 
-Successfully cleaned and preprocessed the Netflix dataset by handling missing values, removing duplicates, standardizing formats, validating data types, and preparing the dataset for further analysis and visualization.
+Successfully cleaned and preprocessed the Netflix dataset by handling missing values, removing duplicates, standardizing date formats, validating data types, and removing unnecessary columns. The final dataset is clean, consistent, and ready for further analysis.
 
 ---
 
-## 🚀 Author
+## 👩‍💻 Author
 
 **Kapa Sri Lakshmi**
 
